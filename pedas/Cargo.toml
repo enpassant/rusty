@@ -5,3 +5,11 @@ authors = ["Kálmán Ferenc <kalman.ferenc@akribis.hu>"]
 edition = "2018"
 
 [dependencies]
+
+[dev-dependencies]
+# TODO This will probably be part of rust in the future (see https://github.com/rust-lang/rust/issues/29553)
+criterion = "0.3"
+
+[[bench]]
+name = "list"
+harness = false
